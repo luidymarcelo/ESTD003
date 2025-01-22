@@ -1,2 +1,2 @@
 # ESTD003
-Repositório inteligencia artificial empresas negócios
+Repositório inteligencia artificial empresas negócios.

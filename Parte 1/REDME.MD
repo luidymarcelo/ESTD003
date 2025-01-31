@@ -93,5 +93,32 @@ E quando é feito um novo pedido o cliente vai lá no site faz um pedido você p
 
 4. Está sendo usado o Anaconda com a IDE do Spyder, após foi criado um ambiente chamado "grid_world" e ativado este ambiente via prompt 
    do Anaconda comando usado "activate grid_world".
-   Também é necessário realizar o direcionamento do repositório que a IDE Spyder vai utilizar neste caso o repositório de "https://ai.berkeley.edu/reinforcement.html".
-   
+   Também é necessário realizar o direcionamento do repositório que a IDE Spyder vai utilizar neste caso o repositório de "https://ai.berkeley.edu/reinforcement.html" adaptado para o Python 3.
+
+Arquivos que você vai editar:
+
+        valueIterationAgents.py: um agente de iteração de valor para resolver MDPs conhecidos.
+        qlearningAgents.py: agentes Q-learning para o Gridworld, Crawler e Pacman.
+        analysis.py: um arquivo para preencher com suas respostas às perguntas deste projeto.
+
+Arquivos que você deve ler, mas NÃO editar:
+
+        mdp.py Define métodos gerais de MDPs.
+        learningAgents.py Define as classes base ValueEstimationAgent e QLearningAgent, que seus agentes irão estender.
+        util.py Utilitários, incluindo util.Counter, que é particularmente útil para Q-learners.
+        gridworld.py A implementação do Gridworld.
+        featureExtractors.py Classes para extrair recursos em pares (estado, ação). Usado para o agente Q-learning aproximado (em qlearningAgents.py).
+
+Arquivos que você pode ignorar:
+
+        environment.py: Classe abstrata para ambientes gerais de aprendizagem por reforço. Usado por gridworld.py.
+        graphicsGridworldDisplay.py: Exibição gráfica do Gridworld.
+        graphicsUtils.py: utilitários gráficos.
+        textGridworldDisplay.py: Plug-in para a interface de texto Gridworld.
+        crawler.py: O código do crawler e o artefatos de teste. Você vai executá-lo, mas não vai editá-lo.
+        graphicsCrawlerDisplay.py: GUI para o robô rastreador.
+        autograder.py: autograder do projeto.
+        testParser.py: Parser de arquivos de solução e testes do autograder
+        testClasses.py: Classes de teste gerais de autocorreção (autograding)
+        test_cases/: diretório contendo os casos de teste para cada questão
+        reforcementTestClasses.py: Classes de teste de autograding específicas do Projeto 3

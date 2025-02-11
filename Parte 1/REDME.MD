@@ -86,10 +86,6 @@ E quando é feito um novo pedido o cliente vai lá no site faz um pedido você p
                                                            REESCREVENDO A FÓRMULA
                                            Qt(s,a) = Qt-1(s,a) + α(R(s,a) + y max Q(s',a')-Qt-1(s,a))
 
-3. Implementação em IA (Python)
- - Construção da Solução de IA
- - Entrando em Produção
- - Melhorias da Solução de IA
 
 4. Está sendo usado o Anaconda com a IDE do Spyder, após foi criado um ambiente chamado "grid_world" e ativado este ambiente via prompt 
    do Anaconda comando usado "activate grid_world".

@@ -70,7 +70,7 @@ def route(starting_location, ending_location):
 
 # Impressão da rota final
 print('Route: ')
-print(route('E', 'G'))
+print(route('A', 'G'))
 
 def best_route(starting_location, intermediary_location, ending_location):
     return route(starting_location, intermediary_location) + route(intermediary_location, ending_location)[1:]
